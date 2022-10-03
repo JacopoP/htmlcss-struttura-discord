@@ -110,6 +110,7 @@ section .text.order_neg{
 /* last setion rules */
 .last_part{
     display: block;
+    padding-bottom: 100px;
 }
 
 .last_part .center_text{
@@ -139,4 +140,49 @@ section .text.order_neg{
     padding: 25px;
     width: 140px;
     border-radius: 25px;
+}
+/* end main rules */
+
+/* footer rules */
+footer{
+    background-color: #23272A;
+    padding: 50px 10% 40px;
+}
+
+footer .flex-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #7289DA;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+footer #slogan_social{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+footer .flex-container ul{
+    width: calc( ((100% - 200px) / 4) - 50px);
+}
+
+footer .flex-container ul li{
+    list-style: none;
+    background-color: #fff;
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register{
+    background-color: #7289DA;
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
 }
