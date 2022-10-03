@@ -7,15 +7,14 @@
 /* header rules */
 header{
     background-color: #255EE9;
-    padding: 12px 10%;
+    padding: 12px 10% 70px;
 }
 
 /* header nav rules */
 header nav{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #000;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .logo{
@@ -67,14 +66,77 @@ header .main_actions{
     margin: auto;
 }
 
-header .download{
-    background-color: #fff;
+.button{    
     padding: 30px 80px;
     border-radius: 30px;
 }
 
+header .download{
+    background-color: #fff;
+}
+
 header .open{
     background-color: #000;
-    padding: 30px 80px;
-    border-radius: 30px;
+}
+/* end header rules */
+
+/* features rules */
+main section{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 20%
+}
+
+main .even{
+    background-color: #F5F5F5;
+}
+
+section .img{
+    width: 50%;
+    background-color: #000;
+    height: 350px;
+}
+
+section .text{
+    width: 40%;
+    background-color: brown;
+    height: 350px;
+}
+
+section .text.order_neg{
+    order: -1;
+}
+
+/* last setion rules */
+.last_part{
+    display: block;
+}
+
+.last_part .center_text{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: blanchedalmond;
+    height: 200px;
+}
+
+#big_img{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+}
+
+.last_part h4{
+    width: 300px;
+    height: 50px;
+    margin: 80px auto 10px;
+    background-color: #000;
+}
+
+.closing_button{
+    background-color: #7289DA;
+    margin: auto;
+    padding: 25px;
+    width: 140px;
+    border-radius: 25px;
 }
